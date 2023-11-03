@@ -1,0 +1,27 @@
+ng new cursos
+
+ng serve -o
+
+npm i bootstrap jquery popper.js
+
+ng g c components/alumnos
+
+ng g c components/cursos --skipTests=true
+
+ng g m layout
+
+ng g c layout/navbar
+
+ng g class models/alumno
+
+ng g s services/alumno
+
+CORS: intercambio de recursos de origen cruzado.
+
+ng gc components/alumnos/alumnos-form --flat --> para que no cree otra carpeta
+
+npm install --save sweetalert2
+
+ng add @angular/material
+
+ng g i models/generic

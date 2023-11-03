@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;AnswerRepository.java&apos; to &apos;answer-service/src/main/java/com.udemy.answer.repository&apos;&#x0D;&#x0A;- Original project: &apos;answer-service&apos;&#x0D;&#x0A;- Destination element: &apos;answer-service/src/main/java/com.udemy.answer.repository&apos;&#x0D;&#x0A;- Original element: &apos;com.udemy.answer.AnswerRepository.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.udemy.answer.repository" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.udemy.answer{AnswerRepository.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1695154776586" units="1" version="1.0"/>
+</session>

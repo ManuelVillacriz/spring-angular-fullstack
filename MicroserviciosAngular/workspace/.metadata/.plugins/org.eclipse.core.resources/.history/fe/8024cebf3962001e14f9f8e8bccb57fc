@@ -1,0 +1,12 @@
+package com.udemy.course.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.udemy.course.entity.Course;
+
+public interface CourseRepository extends JpaRepository<Course, Long> {
+	
+	@Query("select c from Course c join fetch c.alumnos a where a.id = ?1")
+	public Course findCourseByAlumnoId(Long id);
+}

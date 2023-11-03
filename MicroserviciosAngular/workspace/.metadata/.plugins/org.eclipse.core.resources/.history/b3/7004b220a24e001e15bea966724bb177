@@ -1,0 +1,5 @@
+package com.udemy.user.repository;
+
+public interface AlumnoRepository {
+
+}
